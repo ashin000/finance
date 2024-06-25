@@ -1,0 +1,136 @@
+
+  body{
+   
+   background: linear-gradient(to bottom, #00ccff 0%, #ffff00 100%);
+   background-repeat: no-repeat;
+   background-size: 1280px 1300px;
+  }
+  
+  .container{
+    width:1000px;
+    height: 600px;
+    background-color: white;
+    display: flex;
+    margin-top: 200px;
+    
+  }
+  
+  .ledger{
+    background: linear-gradient(to bottom, #3333cc 0%, #996633 100%);
+    padding: 20px;
+    flex: 1px;
+    color: white
+    
+  }
+  
+  .ledger h4{
+    
+    text-transform: uppercase;
+  }
+  
+  .ledger h4,
+  .ledger h5,
+  .ledger h3{
+    font-weight: 600px;
+    margin-bottom: 5px;
+    padding: 5px;
+  }
+  .inc-exp-container{
+    display: flex;
+    padding: 5px;
+    gap: 10px;
+    
+  }
+  
+  
+  .inc-exp-container div {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 18px;
+    flex: 1px;
+    border-radius: 10px;
+    
+  }
+  
+  
+  
+  .inc-exp-container div p{
+    font-size: 18px;
+  }
+  
+  
+  .inc-exp-container div.inc{
+    border: 3px solid lightgreen;
+    color: lawngreen;
+  }
+  
+  .inc-exp-container div.exp{
+    border: lightcoral 3px solid ;
+    color:red;
+  }
+  
+  
+  .form-control{
+    margin-top: 10px;
+  }
+  
+  
+  label{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 13px;
+    font-weight: 400px;
+  }
+  
+  
+  input[type="text"],
+  input[type="number"]{
+    border: 3px solid white;
+    display: block;
+    width:100%;
+    font-size: 16px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+  }
+  
+  
+  .btn{
+    background: skyblue;
+    color:white;
+    width:100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-weight: 600px;
+    border-radius: 10px;
+  }
+  
+  
+  .transaction{
+    flex: 1px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    
+  }
+  
+  .transaction h4{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: gainsboro 1px solid;
+    margin-bottom: 5px;
+  }
+  
+  .trans{
+    list-style-type: none;
+  }
+
+
+ 
+
+  
+  
+  
+  
